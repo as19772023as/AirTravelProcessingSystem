@@ -1,9 +1,13 @@
-package com.gridnine.testing.model;
+package com.gridnine.testing.testData;
+
+import com.gridnine.testing.model.Flight;
+import com.gridnine.testing.model.Segment;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
 
 public class FlightBuilder {
     public static List<Flight> createFlights() {
